@@ -4,8 +4,8 @@
 }
 
 .centr {
-  padding-left: calc(50% - 720px);
-  padding-right: calc(50% - 720px);
+  padding-left: calc(50% - 600px);
+  padding-right: calc(50% - 600px);
 }
 
 .header {
@@ -56,10 +56,14 @@
   text-align: center;
   margin-top: 48px;
 }
+&__group-btn:hover{
+  background: white;
+  color: rgba(0, 0, 0, 1);
+}
 }
 .stars__big {
   position: absolute;
-  left: 854px;
+  right: 0;
   bottom: 111px;
 }
 .stars__green-top {
@@ -85,7 +89,6 @@
 
 .game {
   width: 1440px;
-  height: 1470px;
   background-image: url(img/Rectangle.jpg);
   background-repeat: no-repeat;
   background-position: center;
@@ -99,7 +102,7 @@
   line-height: 78px;
   letter-spacing: 0px;
   text-align: left;
-  margin-top: 94px;
+  padding-top: 94px;
 }
 &__text {
   color: rgb(255, 255, 255);
@@ -113,6 +116,7 @@
   height: 96px;}
 
   &__content{
+    position: relative;
     margin-top: 72px;
     display: flex;
     flex-wrap: wrap;
@@ -198,4 +202,24 @@
     height: 39px;
     margin-top: 16px;
 }
+}
+.game-stars{
+  &__big{
+    position: absolute;
+    padding-top: 77px;
+    padding-left: 814px;
+
+  }
+  &__leftsmall{
+    position: absolute;
+    left: 25px;
+    padding-top: 770px;
+
+  }
+  &__leftbig{
+    position: absolute;
+    left: 40px;
+    padding-top: 822px;
+
+  }
 }
