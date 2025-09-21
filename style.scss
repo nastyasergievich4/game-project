@@ -19,7 +19,8 @@
   width: 769px;
   padding-top: 196px;
   padding-bottom: 246px;
-  padding-left: 120px;
+  position: relative;
+
 }
 &__heading {
   color: rgb(32, 32, 39);
@@ -103,6 +104,7 @@
   letter-spacing: 0px;
   text-align: left;
   padding-top: 94px;
+  padding-bottom: 24px;
 }
 &__text {
   color: rgb(255, 255, 255);
@@ -143,7 +145,11 @@
     height: 473px;
     box-shadow: 0 13px 42px -8px rgba(0, 0, 0, 0.13);
     background: #fff;
+    transition: transform 0.3s ease-in-out;
     
+}
+&__card_wide:hover{
+  transform: scale(1.1);
 }
 
 &__card_medium{
@@ -152,6 +158,11 @@
   box-shadow: 0 13px 42px -8px rgba(0, 0, 0, 0.13);
   background: #fff;
   border-radius: 30px;
+  transition: transform 0.3s ease-in-out;
+}
+
+&__card_medium:hover{
+  transform: scale(1.1);
 }
 
 &__card_high{
@@ -161,7 +172,12 @@
   box-shadow: 0 13px 42px -8px rgba(0, 0, 0, 0.13);
   background: #fff;
   border-radius: 30px;
+  transition: transform 0.3s ease-in-out;
 }
+&__card_high:hover{
+  transform: scale(1.1);
+}
+
 
   &__card_img{
     border-radius: 30px;
