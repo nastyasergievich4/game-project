@@ -1,0 +1,88 @@
+@media (max-width: 767px){
+
+    .centr {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .stars{
+        &__big{
+            display: none;
+        }
+
+        &__green-top{
+            width: 35px;
+            height: 35px;
+            top: 97px;
+            left: 37px;
+        }
+
+        &__little-top{
+            width: 21px;
+            height: 21px;
+            top: 64px;
+            left: 91px;
+        }
+        &__green-btm{
+            width: 18px;
+            height: 18px;
+            top: 557px;
+            left: 272px;
+        }
+        &__little-btm{
+            width: 39px;
+            height: 41px;
+            top: 580px;
+            left: 303px;
+        }
+
+        &__mobile{
+            display: inline;
+            position: absolute;
+            width: 223.52px;
+            height: 238.57px;
+            top: -95px;
+            left: 245px;
+
+        }
+    }
+
+    .header{
+
+        &__group{
+            padding-top: 147px;
+            padding-bottom: 182px;
+        }
+        &__heading{
+        width: 262px;
+        height: 196px;
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 49px;
+        text-align: center;
+        padding-left: 40px;
+        }
+
+        &__text{
+            width: 296px;
+            height: 60px;
+            font-size: 16px;
+            line-height: 20px;
+            letter-spacing: 0px;
+            text-align: center;
+            padding-left: 23px;
+        }
+
+        &__group-btn{
+            width: 285px;
+            height: 55px;
+            font-size: 16px;
+            font-weight: 600;
+            line-height: 141.69%;
+            letter-spacing: 0%;
+            text-align: center;
+            margin-left: 29px;
+            margin-top: 36px;
+        }
+    }
+}
