@@ -1,0 +1,225 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.centr {
+  padding-left: calc(50% - 600px);
+  padding-right: calc(50% - 600px);
+}
+
+.header {
+  width: 1440px;
+  background-image: url(img/header.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.header__group {
+  width: 769px;
+  padding-top: 196px;
+  padding-bottom: 246px;
+  position: relative;
+}
+.header__heading {
+  color: rgb(32, 32, 39);
+  font-family: Montserrat;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 78px;
+  letter-spacing: 0px;
+  text-align: left;
+  padding-bottom: 24px;
+}
+.header__text {
+  color: rgb(32, 32, 39);
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+.header__group-btn {
+  width: 247px;
+  height: 66px;
+  box-sizing: border-box;
+  border: 1px solid rgb(32, 32, 39);
+  border-radius: 60px;
+  background: rgb(32, 32, 39);
+  color: rgb(255, 255, 255);
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 141.69%;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-top: 48px;
+}
+.header__group-btn:hover {
+  background: white;
+  color: rgb(0, 0, 0);
+}
+
+.stars__big {
+  position: absolute;
+  right: 0;
+  bottom: 111px;
+}
+
+.stars__green-top {
+  position: absolute;
+  left: 63px;
+  top: 94px;
+}
+
+.stars__little-top {
+  position: absolute;
+  left: 156px;
+  top: 69px;
+}
+
+.stars__green-btm {
+  position: absolute;
+  left: 948px;
+  top: 538px;
+}
+
+.stars__little-btm {
+  position: absolute;
+  left: 1013px;
+  top: 568px;
+}
+
+.game {
+  width: 1440px;
+  background-image: url(img/Rectangle.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.game__header {
+  color: rgb(255, 255, 255);
+  font-family: Montserrat;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 78px;
+  letter-spacing: 0px;
+  text-align: left;
+  padding-top: 94px;
+  padding-bottom: 24px;
+}
+.game__text {
+  color: rgb(255, 255, 255);
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0px;
+  text-align: left;
+  width: 788px;
+  height: 96px;
+}
+.game__content {
+  position: relative;
+  margin-top: 72px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px;
+}
+.game__content-1 {
+  display: grid;
+  gap: 32px;
+}
+.game__content-2 {
+  display: grid;
+  gap: 32px;
+}
+.game__content-3 {
+  display: grid;
+  gap: 32px;
+}
+.game__card_wide {
+  border-radius: 30px;
+  width: 378px;
+  height: 473px;
+  box-shadow: 0 13px 42px -8px rgba(0, 0, 0, 0.13);
+  background: #fff;
+  transition: transform 0.3s ease-in-out;
+}
+.game__card_wide:hover {
+  transform: scale(1.1);
+}
+.game__card_medium {
+  width: 378px;
+  height: 512px;
+  box-shadow: 0 13px 42px -8px rgba(0, 0, 0, 0.13);
+  background: #fff;
+  border-radius: 30px;
+  transition: transform 0.3s ease-in-out;
+}
+.game__card_medium:hover {
+  transform: scale(1.1);
+}
+.game__card_high {
+  width: 378px;
+  height: 551px;
+  box-shadow: 0 13px 42px -8px rgba(0, 0, 0, 0.13);
+  background: #fff;
+  border-radius: 30px;
+  transition: transform 0.3s ease-in-out;
+}
+.game__card_high:hover {
+  transform: scale(1.1);
+}
+.game__card_img {
+  border-radius: 30px;
+  width: 378px;
+  height: 314px;
+}
+.game__card_content {
+  border-radius: 30px;
+  margin-top: 40px;
+  margin-left: 32px;
+}
+.game__link {
+  text-decoration: none;
+}
+.game__card_nmb {
+  color: rgb(32, 32, 39);
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 110%;
+  letter-spacing: 0px;
+  text-align: left;
+  margin-left: 16px;
+}
+.game__card_name {
+  color: rgb(32, 32, 39);
+  font-family: Montserrat;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 39px;
+  letter-spacing: 0px;
+  text-align: left;
+  width: 314px;
+  height: 39px;
+  margin-top: 16px;
+}
+
+.game-stars__big {
+  position: absolute;
+  padding-top: 77px;
+  padding-left: 814px;
+}
+.game-stars__leftsmall {
+  position: absolute;
+  left: 25px;
+  padding-top: 770px;
+}
+.game-stars__leftbig {
+  position: absolute;
+  left: 40px;
+  padding-top: 822px;
+}/*# sourceMappingURL=style.css.map */
