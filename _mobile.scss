@@ -41,8 +41,8 @@
             position: absolute;
             width: 223.52px;
             height: 238.57px;
-            top: -95px;
-            left: 245px;
+           top: -92px;
+           left: 286px;
 
         }
     }
@@ -85,4 +85,119 @@
             margin-top: 36px;
         }
     }
+
+     .game{
+         width: 375px;
+
+        &__header{
+            width: 250px;
+            height: 49px;
+            font-size: 40px;
+            font-weight: 700;
+            line-height: 49px;
+            letter-spacing: 0px;
+            text-align: left;
+            padding-top: 48px;
+        }
+
+        &__text{
+             width: 296px;
+            height: 60px;
+            font-size: 16px;
+            line-height: 20px;
+            letter-spacing: 0px;
+            text-align: left;
+        }
+        &__content{
+            position: relative;
+            padding-top: 48px;
+            display: flex;
+            flex-direction: column;
+            gap: 24px;
+        }
+
+        &__content-1{
+            display: grid;
+            gap: 24px;
+
+  }
+        &__content-2{
+            display: grid;
+            gap: 24px;
+
+}
+        &__content-3{
+            display: grid;
+            gap: 24px;
+        }
+        
+        
+        &__card_wide{
+            width: 343px;
+            height: 529px;
+        }
+        &__card_wide:hover{
+  transform: scale(1.0);
+}
+
+        &__card_high{
+            width: 343px;
+            height: 607px;
+            
+        }
+&__card_high:hover{
+  transform: scale(1.0);
+}
+        &__card_medium{
+            width: 343px;
+            height: 567px;
+        }
+&__card_medium:hover{
+  transform: scale(1.0);
+}
+        &__card_img{
+            width: 343px;
+            height: 285px;
+
+
+        }
+
+
+  &__card_nmb{
+    color: rgba(32, 32, 39, 1);
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 110%;
+    letter-spacing: 0px;
+    text-align: left;
+    margin-left: 16px;
+
+  }
+
+  &__card_name{
+    color: rgba(32, 32, 39, 1);
+    font-family: Montserrat;
+    font-size: 32px;
+font-weight: 700;
+line-height: 39px;
+letter-spacing: 0px;
+text-align: left;
+}
+
+     }
+
+     .game-stars{
+  &__big{
+    display: none;
+  }
+  &__leftsmall{
+    display: none;
+
+  }
+  &__leftbig{
+    display: none;
+
+  }
+     }
 }
