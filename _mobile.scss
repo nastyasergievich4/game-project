@@ -1,4 +1,4 @@
-@media (max-width: 767px){
+@media (max-width: 767px) {
 
     .centr {
         padding-left: 16px;
@@ -42,17 +42,18 @@
             width: 223.52px;
             height: 238.57px;
            top: -92px;
-           left: 286px;
+           left: 240px;
 
         }
     }
 
     .header{
-
-        &__group{
+        
+         &__group{
             padding-top: 147px;
             padding-bottom: 182px;
         }
+
         &__heading{
         width: 262px;
         height: 196px;
@@ -87,105 +88,120 @@
     }
 
      .game{
-         width: 375px;
+        display: none;
+     }
 
-        &__header{
-            width: 250px;
-            height: 49px;
-            font-size: 40px;
-            font-weight: 700;
-            line-height: 49px;
-            letter-spacing: 0px;
-            text-align: left;
-            padding-top: 48px;
+
+    .game-play{
+  
+
+    &__stars{
+        display: none;
+    }
+
+    &__header{
+       width: 250px;
+       height: 49px;
+       font-size: 40px;
+       font-weight: 700;
+       line-height: 49px;
+       letter-spacing: 0px;
+       text-align: left;
+       padding-top: 48px;
         }
 
-        &__text{
-             width: 296px;
-            height: 60px;
-            font-size: 16px;
-            line-height: 20px;
-            letter-spacing: 0px;
-            text-align: left;
-        }
-        &__content{
-            position: relative;
-            padding-top: 48px;
-            display: flex;
-            flex-direction: column;
-            gap: 24px;
+    &__block{
+       position: relative;
+       display: flex;
+       flex-direction: column;
+       gap: 24px;
+       padding-bottom: 10px;
         }
 
-        &__content-1{
-            display: grid;
-            gap: 24px;
+    &__card{
+       width: 343px;
+       max-height: 627px;
+       }
+       
+    &__content-left{
+       display: flex;
+       flex-direction: column;
+    }
 
-  }
-        &__content-2{
-            display: grid;
-            gap: 24px;
+    &__content-right{
+   display: flex;
+    flex-direction: column;
+}
+    &__img{
+    width: 343px;
+    height: 285px;
+    border-radius: 30px;
+    
+}
+&__group{
+  width: 285px;
+  display: flex;
+  flex-direction: column;
+  padding-top: 29px;
+  padding-left: 29px;
+  
 
 }
-        &__content-3{
-            display: grid;
-            gap: 24px;
-        }
-        
-        
-        &__card_wide{
-            width: 343px;
-            height: 529px;
-        }
-        &__card_wide:hover{
-  transform: scale(1.0);
+&__info{
+    display: flex;
+    padding-bottom: 32px;
+    gap: 16px;
+    flex-direction: column;
+
+
 }
-
-        &__card_high{
-            width: 343px;
-            height: 607px;
-            
-        }
-&__card_high:hover{
-  transform: scale(1.0);
-}
-        &__card_medium{
-            width: 343px;
-            height: 567px;
-        }
-&__card_medium:hover{
-  transform: scale(1.0);
-}
-        &__card_img{
-            width: 343px;
-            height: 285px;
-
-
-        }
-
-
-  &__card_nmb{
-    color: rgba(32, 32, 39, 1);
-    font-family: Montserrat;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 110%;
-    letter-spacing: 0px;
-    text-align: left;
-    margin-left: 16px;
-
-  }
-
-  &__card_name{
-    color: rgba(32, 32, 39, 1);
-    font-family: Montserrat;
-    font-size: 32px;
+&__name{
+   color: rgba(32, 32, 39, 1);
+font-family: Montserrat;
+font-size: 32px;
 font-weight: 700;
 line-height: 39px;
 letter-spacing: 0px;
 text-align: left;
 }
 
-     }
+&__text{
+  color: rgba(0, 0, 0, 1);
+
+font-family: Montserrat;
+font-size: 16px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0px;
+text-align: left;
+
+}
+&__button{
+ 
+    width: 285px;
+    height: 55px;
+    align-items: center;
+    padding: 16px 28px 16px 28px;
+    box-sizing: border-box;
+    border: 1px solid rgba(32, 32, 39, 1);
+    border-radius: 60px;
+    background: rgba(32, 32, 39, 1);
+    color: rgba(255, 255, 255, 1);
+
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 141.69%;
+    letter-spacing: 0%;
+    text-align: center;
+
+}
+&__button:hover{
+  background: white;
+  color: rgba(0, 0, 0, 1);
+}
+
+}
 
      .game-stars{
   &__big{
@@ -197,7 +213,19 @@ text-align: left;
   }
   &__leftbig{
     display: none;
-
-  }
+}
      }
+
+.footer{
+
+    &__text{
+        color: rgba(0, 0, 0, 1);
+        font-family: Montserrat;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 20px;
+        letter-spacing: 0px;
+        text-align: center;
+    }
+}  
 }
