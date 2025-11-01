@@ -14,13 +14,14 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  position: relative;
+  overflow: hidden;
 
 &__group {
   width: 769px;
   padding-top: 196px;
   padding-bottom: 246px;
-  position: relative;
-
+  
 }
 &__heading {
   color: rgb(32, 32, 39);
@@ -64,8 +65,7 @@
 }
 .stars__big {
   position: absolute;
-  right: 0;
-  bottom: 111px;
+  right: 242px;
 }
 .stars__green-top {
   position: absolute;
@@ -99,6 +99,7 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  position: relative;
 
 &__header {
   color: rgb(255, 255, 255);
@@ -123,7 +124,7 @@
   height: 96px;}
 
   &__content{
-    position: relative;
+    
     margin-top: 72px;
     display: flex;
     flex-wrap: wrap;
@@ -151,6 +152,8 @@
     box-shadow: 0 13px 42px -8px rgba(0, 0, 0, 0.13);
     background: #fff;
     transition: transform 0.3s ease-in-out;
+    position: relative; 
+    z-index: 2;
     
 }
 &__card_wide:hover{
@@ -226,27 +229,34 @@
 }
 
 .game-play{
-  max-width: 1440px;
+  width: 1440px;
   background-image: url(img/Rectangle.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  position: relative;
 
 &__top-small{
   position: absolute;
+  top: 93px;
   right: 124px;
 }
 &__top-big{
   position: absolute;
+  top: 126px;
   right: 45px;
 }
 
 &__btm-small{
   position: absolute;
+  bottom: 45px;
+  right: 150px;
 }
 
 &__btm-big{
   position: absolute;
+  bottom: 65px;
+  right: 52px;
 }
 
 &__header{
@@ -265,7 +275,7 @@
     flex-direction: column;
     gap: 32px;
     padding-bottom: 144px;
-    position: relative;
+    
 
 }
 &__card{

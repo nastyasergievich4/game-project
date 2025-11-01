@@ -1,4 +1,4 @@
 a = 9;
 b = 2;
-let quotient = a / b;
-alert(quotient);
+let result = a % b;
+alert(result);

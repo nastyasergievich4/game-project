@@ -5,7 +5,8 @@
         padding-right: 16px;
     }
 
-    .stars{
+    .stars {
+    
         &__big{
             display: none;
         }
@@ -39,10 +40,8 @@
         &__mobile{
             display: inline;
             position: absolute;
-            width: 223.52px;
-            height: 238.57px;
-           top: -92px;
-           left: 240px;
+            top: -105px;
+            left: 240px;
 
         }
     }
@@ -122,7 +121,26 @@
        width: 343px;
        max-height: 627px;
        }
-       
+
+    &__card_cardmob1{
+        height: 529px;
+    }
+     &__card_cardmob2{
+        height: 568px;
+    }
+   &__card_cardmob3{
+        height: 568px;
+    }
+    &__card_cardmob4{
+        height: 607px;
+    }
+    &__card_cardmob5{
+        height: 568px;
+    }
+    &__card_cardmob6{
+        height: 627px;
+    } 
+
     &__content-left{
        display: flex;
        flex-direction: column;
@@ -217,15 +235,12 @@ text-align: left;
      }
 
 .footer{
+    height: 100px;
 
     &__text{
-        color: rgba(0, 0, 0, 1);
-        font-family: Montserrat;
         font-size: 16px;
         font-weight: 600;
-        line-height: 20px;
-        letter-spacing: 0px;
-        text-align: center;
+        padding-top: 40px;
     }
 }  
 }
