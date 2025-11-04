@@ -1,0 +1,246 @@
+@media (max-width: 767px) {
+
+    .centr {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .stars {
+    
+        &__big{
+            display: none;
+        }
+
+        &__green-top{
+            width: 35px;
+            height: 35px;
+            top: 97px;
+            left: 37px;
+        }
+
+        &__little-top{
+            width: 21px;
+            height: 21px;
+            top: 64px;
+            left: 91px;
+        }
+        &__green-btm{
+            width: 18px;
+            height: 18px;
+            top: 557px;
+            left: 272px;
+        }
+        &__little-btm{
+            width: 39px;
+            height: 41px;
+            top: 580px;
+            left: 303px;
+        }
+
+        &__mobile{
+            display: inline;
+            position: absolute;
+            top: -105px;
+            left: 240px;
+
+        }
+    }
+
+    .header{
+        
+         &__group{
+            padding-top: 147px;
+            padding-bottom: 182px;
+        }
+
+        &__heading{
+        width: 262px;
+        height: 196px;
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 49px;
+        text-align: center;
+        padding-left: 40px;
+        }
+
+        &__text{
+            width: 296px;
+            height: 60px;
+            font-size: 16px;
+            line-height: 20px;
+            letter-spacing: 0px;
+            text-align: center;
+            padding-left: 23px;
+        }
+
+        &__group-btn{
+            width: 285px;
+            height: 55px;
+            font-size: 16px;
+            font-weight: 600;
+            line-height: 141.69%;
+            letter-spacing: 0%;
+            text-align: center;
+            margin-left: 29px;
+            margin-top: 36px;
+        }
+    }
+
+     .game{
+        display: none;
+     }
+
+
+    .game-play{
+  
+
+    &__stars{
+        display: none;
+    }
+
+    &__header{
+       width: 250px;
+       height: 49px;
+       font-size: 40px;
+       font-weight: 700;
+       line-height: 49px;
+       letter-spacing: 0px;
+       text-align: left;
+       padding-top: 48px;
+        }
+
+    &__block{
+       position: relative;
+       display: flex;
+       flex-direction: column;
+       gap: 24px;
+       padding-bottom: 10px;
+        }
+
+    &__card{
+       width: 343px;
+       max-height: 627px;
+       }
+
+    &__card_cardmob1{
+        height: 529px;
+    }
+     &__card_cardmob2{
+        height: 568px;
+    }
+   &__card_cardmob3{
+        height: 568px;
+    }
+    &__card_cardmob4{
+        height: 607px;
+    }
+    &__card_cardmob5{
+        height: 568px;
+    }
+    &__card_cardmob6{
+        height: 627px;
+    } 
+
+    &__content-left{
+       display: flex;
+       flex-direction: column;
+    }
+
+    &__content-right{
+   display: flex;
+    flex-direction: column;
+}
+    &__img{
+    width: 343px;
+    height: 285px;
+    border-radius: 30px;
+    
+}
+&__group{
+  width: 285px;
+  display: flex;
+  flex-direction: column;
+  padding-top: 29px;
+  padding-left: 29px;
+  
+
+}
+&__info{
+    display: flex;
+    padding-bottom: 32px;
+    gap: 16px;
+    flex-direction: column;
+
+
+}
+&__name{
+   color: rgba(32, 32, 39, 1);
+font-family: Montserrat;
+font-size: 32px;
+font-weight: 700;
+line-height: 39px;
+letter-spacing: 0px;
+text-align: left;
+}
+
+&__text{
+  color: rgba(0, 0, 0, 1);
+
+font-family: Montserrat;
+font-size: 16px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0px;
+text-align: left;
+
+}
+&__button{
+ 
+    width: 285px;
+    height: 55px;
+    align-items: center;
+    padding: 16px 28px 16px 28px;
+    box-sizing: border-box;
+    border: 1px solid rgba(32, 32, 39, 1);
+    border-radius: 60px;
+    background: rgba(32, 32, 39, 1);
+    color: rgba(255, 255, 255, 1);
+
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 141.69%;
+    letter-spacing: 0%;
+    text-align: center;
+
+}
+&__button:hover{
+  background: white;
+  color: rgba(0, 0, 0, 1);
+}
+
+}
+
+     .game-stars{
+  &__big{
+    display: none;
+  }
+  &__leftsmall{
+    display: none;
+
+  }
+  &__leftbig{
+    display: none;
+}
+     }
+
+.footer{
+    height: 100px;
+
+    &__text{
+        font-size: 16px;
+        font-weight: 600;
+        padding-top: 40px;
+    }
+}  
+}
